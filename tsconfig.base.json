@@ -14,7 +14,15 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@nx-test/store/feature-card-detail": [
+        "libs/store/feature-card-detail/src/index.ts"
+      ],
+      "@nx-test/store/ui-shared": ["libs/store/ui-shared/src/index.ts"],
+      "@nx-test/store/util-formatters": [
+        "libs/store/util-formatters/src/index.ts"
+      ]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }

@@ -40,8 +40,10 @@
       "executor": "@nrwl/web:dev-server",
       "options": {
         "buildTarget": "store:build",
-        "hmr": true, "allowedHosts": "",
-        "port": 3000
+        "hmr": true,
+        "allowedHosts": "",
+        "port": 8000,
+        "proxyConfig": "apps/store/proxy.conf.json"
       },
       "configurations": {
         "production": {
